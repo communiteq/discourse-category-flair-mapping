@@ -1,0 +1,4 @@
+plugins:
+  category_flair_mapping_enabled:
+    client: true
+    default: false

@@ -1,0 +1,6 @@
+en:
+  js:
+    category:
+      category_flair_mapping:
+        title: "Category Flair Mapping"
+        avatar_flair_groups_description: "Select avatar flair from the following groups:"
