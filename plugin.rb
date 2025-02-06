@@ -1,6 +1,6 @@
 # name: discourse-category-flair-mapping
 # about: Allows to choose avatar flair groups per category
-# version: 1.0
+# version: 1.0.1
 # authors: Communiteq
 # url: https://github.com/communiteq/discourse-category-flair-mapping
 
@@ -39,8 +39,8 @@ after_initialize do
         @memoized_flair_group_for_category[category.id] = custom_group
         return custom_group
       end
+      @memoized_flair_group_for_category[category.id] = flair_group
     end
-    @memoized_flair_group_for_category[category.id] = flair_group
     flair_group
   end
 
